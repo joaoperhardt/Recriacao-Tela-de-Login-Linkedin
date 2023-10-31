@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 12px 16px 16px;
+}
+
+#linkedin-logo img{
+    float: left;
+    width: 84px;
+    height: 21px;
+}
+
+#entrar-button {
+    float: right;
+    width: 91.6px;
+    height: 48px;
+    border-radius: 24px;
+}
