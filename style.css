@@ -44,6 +44,12 @@
     cursor: pointer;
 }
 
+#icones {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
 .top-nav-icon {
     width: 20px;
     height: 18px;
@@ -56,7 +62,6 @@
 }
  
 .top-nav-link{
-    float: right;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -68,13 +73,13 @@
     color: rgb(102, 102, 102)
 }
 
+.top-nav-link:hover {
+    color: #000;
+    cursor: pointer;
+}
+
 .titulo {
     display: block;
     width: 578.39px;
     height: 134.38px;
-}
-
-.top-nav-link:hover {
-    color: #000;
-    cursor: pointer;
 }
