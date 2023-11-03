@@ -13,8 +13,30 @@
     height: 48px;
 }
 
-#entrar-button {
+#top-nav-buttons {
+    min-width: 100px;
+    column-gap: 8px;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    display: flex;
     float: right;
+}
+
+#cadastre {
+    min-height: 48px;
+    width: 179.267px;
+    padding: 12px, 24px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 24px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+#entrar-button {
     width: 91.6px;
     height: 48px;
     border-radius: 24px;
@@ -29,18 +51,9 @@
     cursor: pointer;
 }
 
-#cadastre {
-    float: right;
-    height: 48px;
-    width: 179.267px;
-    padding: 12px, 24px;
-    background-color: rgb(255, 255, 255);
-    border: 0px;
-    color: #0a66c2;
-}
-
 #cadastre:hover {
-    color:rgb(26, 26, 214);
+    color: #000;
+    background-color: #dddddd;
     cursor: pointer;
 }
 
@@ -70,7 +83,7 @@
     display: flex;
     margin-left: 8px;  
     margin-right: 8px;
-    color: rgb(102, 102, 102)
+    color: rgb(102, 102, 102);
 }
 
 .top-nav-link:hover {
