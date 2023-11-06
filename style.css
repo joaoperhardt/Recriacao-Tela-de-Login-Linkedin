@@ -91,8 +91,18 @@
     cursor: pointer;
 }
 
-.titulo {
-    display: block;
-    width: 578.39px;
-    height: 134.38px;
+.main-div{
+    max-width: 1128px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 40px;
+ 
 }
+ 
+#titulo {
+    width: 578.4px;
+    height: 134.4px;
+    font-size: 56px;
+    font-weight: 200;
