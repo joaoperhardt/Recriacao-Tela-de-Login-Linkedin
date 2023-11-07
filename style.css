@@ -169,7 +169,7 @@ body {
     height: 487;
 }
 
-#email-label {
+.input-label {
     color: #404040;
     margin-bottom: 8px;
     font-size: 14px;
