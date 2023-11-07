@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @font-face {
@@ -9,25 +9,51 @@
     src: url(/assets/font/Roboto-Regular.ttf);
 }
 
-#header {
-    padding: 12px 16px 16px;
+body {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
 }
 
-#linkedin-logo img{
-    float: left;
+#header {
+    padding: 12px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 1128px;
+    height: 80px;
+
+}
+
+#linkedin-logo img {
+    display: block;
+    margin-right: auto;
     width: 155px;
     height: 48px;
+    flex-grow: 1;
+}
+
+#linkedin-logo{
+    flex-grow: 1;
 }
 
 #top-nav-buttons {
     min-width: 100px;
+    order: 3;
     column-gap: 8px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     flex-shrink: 0;
     display: flex;
-    float: right;
+
 }
+
 
 #cadastre {
     min-height: 48px;
@@ -53,41 +79,44 @@
 
 #entrar-button:hover {
     color: #064a94;
-    background-color: #9cc3eb;
+    background-color: rgba(190, 211, 245, .3);
     cursor: pointer;
 }
 
 #cadastre:hover {
     color: #000;
-    background-color: #dddddd;
+    background-color: rgba(175, 175, 175, .2);
     cursor: pointer;
 }
 
 #icones {
     align-items: center;
     display: flex;
-    float: right;
+    margin-right: 4px;
+    order: 3;
+    border-right: 1px solid rgba(0, 0, 0, .4);
+        
 }
 
 .top-nav-icon {
     width: 20px;
     height: 18px;
 }
- 
+
 .top-nav-name {
     margin-top: 5px;
     font-size: small;
     box-sizing: border-box;
 }
- 
-.top-nav-link{
+
+.top-nav-link {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 64px;
-    height: 52px;  
+    height: 52px;
     display: flex;
-    margin-left: 8px;  
+    margin-left: 8px;
     margin-right: 8px;
     color: rgb(102, 102, 102);
 }
@@ -97,52 +126,53 @@
     cursor: pointer;
 }
 
-.main-div{
+.main-div {
     max-width: 1128px;
     position: relative;
     display: flex;
     width: 100%;
     align-items: center;
     padding-top: 40px;
-    
- 
+
+
 }
 
-#main-section{
+#main-section {
     position: relative;
-    display: flex;  
-    width: 100%;    
+    display: flex;
+    width: 1128px;
     align-items: center;
     padding-top: 40px;
+    margin: 0 auto;
 
 }
 
-#login-form{
+#login-form {
     padding-right: 42px;
     align-self: flex-start;
     width: 55%;
     position: relative;
 }
- 
+
 #titulo {
     width: 578.4px;
     height: 134.4px;
     font-size: 56px;
     font-weight: 200;
     color: #b24020
-} 
+}
 
-.login-column{
+.login-column {
     margin-bottom: 0px;
     margin-top: 24px;
     width: 408px;
     height: 487;
 }
 
-#email-label{
-color: #404040;
-margin-bottom: 8px;
-font-size: 14px;
+#email-label {
+    color: #404040;
+    margin-bottom: 8px;
+    font-size: 14px;
 }
 
 .input-div {
@@ -170,3 +200,9 @@ font-size: 14px;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid transparent;
 }
+
+.login-field {
+    margin-top: 12px;
+}
+
+#senha-input {}
