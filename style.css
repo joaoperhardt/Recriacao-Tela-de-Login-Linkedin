@@ -144,3 +144,29 @@ color: #404040;
 margin-bottom: 8px;
 font-size: 14px;
 }
+
+.input-div {
+    width: 408px;
+    height: 22px;
+    margin-top: 12px;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+.input-div:hover {
+    border: 2px solid #000;
+}
+
+#email-input {
+    outline-width: 0px;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+}
