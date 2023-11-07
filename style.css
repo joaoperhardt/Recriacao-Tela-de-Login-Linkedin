@@ -129,8 +129,6 @@
     height: 134.4px;
     font-size: 56px;
     font-weight: 200;
-<<<<<<< HEAD
-=======
     color: #b24020
 } 
 
@@ -145,5 +143,10 @@
 color: #404040;
 margin-bottom: 8px;
 font-size: 14px;
->>>>>>> 3a277f7e9870a275094256ff2797066fa84535da
+}
+
+.input-div {
+    margin-top: 12px;
+    display: flex;
+    border: 1px solid #000;
 }
