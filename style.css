@@ -205,4 +205,8 @@ body {
     margin-top: 12px;
 }
 
-#senha-input {}
+#senha-input {
+    width: 320px;
+    height: 25px;
+    border: 1px solid transparent;
+}
